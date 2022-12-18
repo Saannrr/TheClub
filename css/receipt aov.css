@@ -1,0 +1,122 @@
+.body{
+    display: flex;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 860px;
+    left: 0px;
+    top: 0px;
+    }
+.header a{
+    position: absolute;
+    left: 1000px;
+    top: 0px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.card{
+    position: relative;
+    left:500px;
+    top: 150px;
+}
+.text{
+    position: relative;
+    right: 150px;
+    top: 660px;
+    font-family:'Montserrat';
+    color: #FFF863;
+}
+.ty{
+    font-size: 25px;
+    font-weight: 600;
+}
+.order{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.date{
+    position: absolute;
+    font-size: 20px;
+    top: 175px;
+    bottom: 80px;
+    margin-left: 350px;
+    width: 350px;
+}
+.buttons{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 530px;
+    right: 740px;
+    font-family: 'Barlow';
+    font-weight: bold;
+    color: #300066;
+}
+  .kebeli:hover{
+    border: 4.17462px solid #ff4400;
+    background: #fff0a4;
+    
+  }
+  .kebeli:active{
+    border: 4.17462px solid #000000;
+    background: #fff0a4;
+  }
+  .kebeli{
+      box-sizing: border-box;
+      position: absolute;
+      width: 252px;
+      height: 70px;
+      left: 134.28px;
+      top: 324.28px;
+      background: #FFD600;
+      border: 4.17462px solid #300066;
+      box-shadow: 0px 4px 19px rgba(200, 45, 45, 0.51);
+      border-radius: 100px;
+      margin-top: 43px;
+  }
+  .t1{
+      box-sizing: border-box;
+      font-size: 30px;
+      position: absolute;
+      width: 237px;
+      height: 64px;
+      left: 20px;
+      top: 10px;
+  }
+  .kemenu:hover{
+    border: 4.17462px solid #ff4400;
+    background: #fff0a4;
+   
+ }
+ .kemenu:active{
+    border: 4.17462px solid #000000;
+    background: #fff0a4;
+ }
+  .kemenu{
+    box-sizing: border-box;
+    position: absolute;
+    width: 252px;
+    height: 70px;
+    left: 484.28px;
+    top: 324.28px;
+    background: #FFD600;
+    border: 4.17462px solid #300066;
+    box-shadow: 0px 4px 19px rgba(200, 45, 45, 0.51);
+    border-radius: 100px;
+    margin-top: 43px;
+}
+.t2{
+    box-sizing: border-box;
+    font-size: 30px;
+    position: absolute;
+    width: 237px;
+    height: 64px;
+    left: 20px;
+    top: 10px;
+}

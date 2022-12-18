@@ -1,0 +1,248 @@
+.body{
+    display: flex;
+    position: relative;
+    width: 2300px;
+    height: 3222px;
+    margin:0px;
+    padding-left: 5%;
+}
+.whya{
+    position: absolute;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+    font-size: 100px;
+    -webkit-text-stroke:5px #000;
+    text-shadow: 4px 8px 8px #000;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 90px;
+    word-spacing: 3px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFED6;
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 400px;
+    top: 850px;
+}
+.intro{
+    font-family: 'Barlow';
+    align-self: center;
+    justify-content: space-between;
+    margin: 150px;
+    margin-top: 350px;
+}
+.gamepad{
+    position: relative;
+    margin-right: 150px;
+}
+.card{
+    position: relative;
+    left: 900px;
+    bottom: 450px;
+}
+.card g{
+    position: absolute;
+    right: 212px;
+    box-sizing: border-box;
+        font-size: 30px;
+        word-spacing: 3px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFED6;
+        position: absolute;
+        width: 750px;
+        height: 30px;
+        left: 70px;
+        top: 200px;
+}
+.why{
+        position: absolute;
+        box-sizing: border-box;
+        font-size: 100px;
+        -webkit-text-stroke:5px #000;
+        text-shadow: 4px 8px 8px #000;
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 90px;
+        word-spacing: 3px;
+        line-height: 90px;
+        text-align: center;
+        color: #FFFED6;
+        position: absolute;
+        width: 1500px;
+        height: 100px;
+        left: 400px;
+        top: 1700px;
+}
+.keunggulan{
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+}
+.whys{
+    position: absolute;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+    font-size: 100px;
+    -webkit-text-stroke:5px #000;
+    text-shadow: 4px 8px 8px #000;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 90px;
+    word-spacing: 3px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFED6;
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 400px;
+    top: 2300px;
+}
+.review{
+    position: relative;
+    height: 1000px;
+    width: 2000px;
+    top: 2500px;
+    right: 1400px;
+}
+.pewdiepie{
+    position: relative;
+    width:400px;
+    height: 0px;
+    text-align: center;
+}
+.pewdiepie a{
+    font-family: 'Barlow';
+    font-size: 24px;
+    color: #FFFED6;
+    text-shadow: 4px 8px 8px #000;
+    margin-top: 15px;
+    text-align: center;
+}
+.windah{
+    position: relative;
+    width:400px;
+    height: 0px;
+    left: 500px;
+    text-align: center;
+}
+.windah a{
+    font-family: 'Barlow';
+    font-size: 24px;
+    color: #FFFED6;
+    text-shadow: 4px 8px 8px #000;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.miawaug{
+    position: relative;
+    width:400px;
+    height: 0px;
+    left: 1000px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.miawaug a{
+    font-family: 'Barlow';
+    font-size: 24px;
+    color: #FFFED6;
+    text-shadow: 4px 8px 8px #000;
+    margin-top: 15px;
+    text-align: center;
+}
+.footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+width: 2300px;
+height: 200px;
+left: 0px;
+top: 3422px;
+color: #000000;
+background: #FFDC60;
+border: 1px solid #000000;
+box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.logo{
+    margin-left: 15px;
+}
+.cop{
+    position: absolute;
+    margin-top: 150px;
+    left: 15px;
+    align-self: left;
+    width: fit-content;
+    font-family: 'Barlow';
+    font-size: 24px;
+}
+.link{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 1700px;
+    font-family: 'Barlow';
+    font-size: 30px;
+    text-align: center;
+}
+.link b{
+    position: relative;
+
+}
+.pics{
+    position: relative;
+}
+.title{
+position: absolute;
+width: 689px;
+height: 147px;
+left: 160px;
+top: 216px;
+
+font-family: 'Expletus Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 86px;
+text-shadow: 4px 8px 8px #000;
+color: #FFFED6;
+
+-webkit-text-stroke: 5px black;
+}
+.ghost{
+position: absolute;
+width: 45%;
+margin-left: 35%;
+}
+
+.paclogo{
+position: absolute;
+width: 200px;
+height: 90px;
+left: 195px;
+top: 90px;
+}
+.lub{
+position: absolute;
+width: 55px;
+height: 296px;
+left: 210px;
+top: 130%;
+
+font-family: 'bungee';
+font-style: normal;
+font-weight: 900;
+font-size: 85px;
+line-height: 77px;
+color: #FAFF0E;
+-webkit-text-stroke: 8px black;
+}
+.start{
+position: absolute;
+width: 341px;
+height: 92px;
+left: 425px;
+top: 180px;
+}

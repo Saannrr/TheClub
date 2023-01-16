@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,17 +17,17 @@
             <img src="newimg/ty steam.png" alt="">
         </div>
         <div class="text">
-            <div class="ty"><h3>Thank you for your purchase</h3>
+            <div class="ty">
+                <h3>Thank you for your purchase</h3>
                 Your order will be processed in 5-10 minutes
                 <br>You may issue refund after 24 hours
             </div>
             <div class="order">
-                <?php $number = rand(10000,100000);
-                    echo "Order ID: STM" . $number;?>
+                Order ID: STM<script>document.write(Math.floor(Math.random()*100000))</script>
             </div><br>
             <div class="date">
-                <?php date_default_timezone_set("Asia/Jakarta");
-                echo "Date " . date("d/m/")."<br>Time: ".date("h:i:sa")?>
+                Date <script>document.write(new Date().toLocaleDateString())</script><br>
+                Time: <script>document.write(new Date().toLocaleTimeString())</script>
             </div>
         </div>
         <div class="buttons">

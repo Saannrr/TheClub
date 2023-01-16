@@ -21,12 +21,16 @@
                 <br>You may issue refund after 24 hours
             </div>
             <div class="order">
-                <?php $number = rand(10000,100000);
-                    echo "Order ID: GEN" . $number;?>
+                <script>
+                    let number = Math.floor(Math.random() * (100000 - 10000 + 1)) + 10000;
+                    document.write("Order ID: GEN" + number);
+                </script>
             </div><br>
             <div class="date">
-                <?php date_default_timezone_set("Asia/Jakarta");
-                echo "Date " . date("d/m/y")."<br>Time: ".date("h:i:sa")?>
+                <script>
+                    let currentDate = new Date();
+                    document.write("Date " + currentDate.getDate() + "/" + (currentDate.getMonth() + 1) + "/" + currentDate.getFullYear() + "<br>Time: " + currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds());
+                </script>
             </div>
         </div>
         <div class="buttons">
